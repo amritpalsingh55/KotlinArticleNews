@@ -9,6 +9,7 @@ import retrofit2.http.Query
 /**
  * Created by it on 11/16/2019.
  */
+// interface for api's
 interface ApiInterface {
     @GET(UrlConstants.KOTLIN_JSON)
     abstract fun getArticles(): Observable<ArticleModel>

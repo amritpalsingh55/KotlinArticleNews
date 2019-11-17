@@ -14,6 +14,7 @@ import java.util.concurrent.TimeUnit
 class RestClient {
     companion object {
 
+        
          fun setupRestClient():ApiInterface {
 
             val okHttpClient = OkHttpClient.Builder()
